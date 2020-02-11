@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="navbar">
+      <div class="inav">
+        <!-- logo -->
+        <img src="M&M.png" alt="" srcset="">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="musicP.html">Music</a></li>
+          <li><a href="imgv.html">Image</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header">
+      <h1> <span>Music</span> for everyone.</h1>
+      <img src="hd.png" alt="" srcset="">
+    </div>
+
+
+
+    <div class="all">
+      <h1>Music Player</h1>
+      <div class="music">
+        <div id="res">
+          <audio id="audio" controls>
+            <source src="">
+          </audio>
+        </div>
+        <!-- <i id="i1" class="fas fa-forward"></i>
+        <i id="i2" class="fas fa-forward"></i> -->
+        <div class="dtl">
+          <p id="name"></p>
+          <p id="album"></p>
+          <p id="genre"></p>
+  
+        </div>
+      </div>
+    <div class="inpt">
+
+      <button type="button" name="button" onclick="up();">Prev</button>
+      <input id="nom" type="text" name="" value="" placeholder="le nom de l'artiste">
+      <input id="alb" type="text" name="" value="" placeholder=" l'album">
+      <input id="grn" type="text" name="" value="" placeholder=" le genre musical">
+      <input id="data" type="text" name="" value="" placeholder="url">
+      <button type="button" name="button" onclick="push();">Add</button>
+      <button type="button" name="button" onclick="PopFromList();">Pop</button>
+      <button type="button" name="button" onclick="dequeue();">dequeue</button>
+      <button type="button" name="button" onclick="down();">next</button>
+
+
+    </div>
+    </div>
+
+
+<script src="jsmusic.js">
+
+</script>
+  </body>
+</html>
